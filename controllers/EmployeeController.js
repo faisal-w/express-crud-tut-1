@@ -65,7 +65,7 @@ employeeController.update = function(req, res) {
                     console.log(err);
                     res.render("../views/employees/edit", {employee: req.body});
                 }
-                res.redirect("/employess/show/" + employee._id);
+                res.redirect("/employees/show/" + employee._id);
             });
 };
 
